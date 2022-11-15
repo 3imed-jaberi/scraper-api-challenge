@@ -1,0 +1,74 @@
+{
+  "proxies": [
+    {
+      "id": 0,
+      "protocol": "http",
+      "host": "60.51.17.107",
+      "port": 80,
+      "rateLimiter": { "reset": 1668486181.213644, "maxRequests": 600, "remainingRequests": 600 }
+    },
+    {
+      "id": 1,
+      "protocol": "http",
+      "host": "95.216.136.105",
+      "port": 8888,
+      "rateLimiter": { "reset": 1668486181.213644, "maxRequests": 600, "remainingRequests": 600 }
+    },
+    {
+      "id": 2,
+      "protocol": "http",
+      "host": "1.64.237.92",
+      "port": 8888,
+      "rateLimiter": { "reset": 1668486181.213644, "maxRequests": 600, "remainingRequests": 600 }
+    },
+    {
+      "id": 3,
+      "protocol": "http",
+      "host": "156.34.187.155",
+      "port": 8888,
+      "rateLimiter": { "reset": 1668486181.213644, "maxRequests": 600, "remainingRequests": 600 }
+    },
+    {
+      "id": 4,
+      "protocol": "http",
+      "host": "65.21.54.229",
+      "port": 8888,
+      "rateLimiter": { "reset": 1668486181.213644, "maxRequests": 600, "remainingRequests": 600 }
+    },
+    {
+      "id": 5,
+      "protocol": "http",
+      "host": "111.90.147.212",
+      "port": 8118,
+      "rateLimiter": { "reset": 1668486181.213644, "maxRequests": 600, "remainingRequests": 600 }
+    },
+    {
+      "id": 6,
+      "protocol": "http",
+      "host": "140.227.80.237",
+      "port": 3180,
+      "rateLimiter": { "reset": 1668486181.213644, "maxRequests": 600, "remainingRequests": 600 }
+    },
+    {
+      "id": 7,
+      "protocol": "http",
+      "host": "200.105.215.22",
+      "port": 33630,
+      "rateLimiter": { "reset": 1668486181.213644, "maxRequests": 600, "remainingRequests": 600 }
+    },
+    {
+      "id": 8,
+      "protocol": "http",
+      "host": "182.253.109.140",
+      "port": 8080,
+      "rateLimiter": { "reset": 1668486181.213644, "maxRequests": 600, "remainingRequests": 599 }
+    },
+    {
+      "id": 9,
+      "protocol": "http",
+      "host": "47.242.43.30",
+      "port": 1080,
+      "rateLimiter": { "reset": 1668486181.213644, "maxRequests": 600, "remainingRequests": 600 }
+    }
+  ]
+}

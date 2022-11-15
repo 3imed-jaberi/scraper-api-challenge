@@ -1,0 +1,10 @@
+{
+  "name": "@scraper-api-challenge/test-utils",
+  "version": "1.0.0",
+  "author": "imed jaberi",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "ms": "^2.1.3"
+  }
+}

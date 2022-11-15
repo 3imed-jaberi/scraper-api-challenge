@@ -1,0 +1,14 @@
+{
+  "name": "@scraper-api-challenge/persister",
+  "version": "1.0.0",
+  "author": "imed jaberi",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "vitest",
+    "coverage": "vitest --coverage"
+  },
+  "devDependencies": {
+    "@scraper-api-challenge/proxies-parser": "*"
+  }
+}

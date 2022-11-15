@@ -1,0 +1,11 @@
+{
+  "name": "@scraper-api-challenge/time",
+  "version": "1.0.0",
+  "author": "imed jaberi",
+  "license": "MIT",
+  "private": true,
+  "scripts": {},
+  "dependencies": {
+    "ms": "^2.1.3"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "scraper-api-challenge",
+  "version": "1.0.0",
+  "author": {
+    "name": "imed jaberi",
+    "email": "imed-jaberi@outlook.com",
+    "url": "https://www.3imed-jaberi.com"
+  },
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "app",
+    "packages/**"
+  ],
+  "scripts": {
+    "test": "vitest",
+    "coverage": "vitest --coverage",
+    "format": "prettier app packages --write",
+    "app": "yarn workspace @scraper-api-challenge/app",
+    "persister": "yarn workspace @scraper-api-challenge/persister",
+    "proxies-parser": "yarn workspace @scraper-api-challenge/proxies-parser",
+    "proxies-rate-limiter-binder": "yarn workspace @scraper-api-challenge/proxies-rate-limiter-binder",
+    "proxies-roulette": "yarn workspace @scraper-api-challenge/proxies-roulette",
+    "proxy-serializer": "yarn workspace @scraper-api-challenge/proxy-serializer",
+    "rate-limiter": "yarn workspace @scraper-api-challenge/rate-limiter",
+    "time": "yarn workspace @scraper-api-challenge/time"
+  },
+  "devDependencies": {
+    "@sindresorhus/tsconfig": "^3.0.1",
+    "@vitest/coverage-c8": "^0.25.2",
+    "prettier": "^2.7.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4",
+    "vitest": "^0.25.2"
+  },
+  "enignes": {
+    "node": ">= 16"
+  },
+  "bugs": {
+    "url": "https://github.com/3imed-jaberi/scraper-api-challenge/issues"
+  },
+  "homepage": "https://github.com/3imed-jaberi/scraper-api-challenge#readme"
+}

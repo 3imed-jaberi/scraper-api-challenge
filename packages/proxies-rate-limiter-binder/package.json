@@ -1,0 +1,17 @@
+{
+  "name": "@scraper-api-challenge/proxies-rate-limiter-binder",
+  "version": "1.0.0",
+  "author": "imed jaberi",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "vitest",
+    "coverage": "vitest --coverage"
+  },
+  "dependencies": {
+    "@scraper-api-challenge/rate-limiter": "*"
+  },
+  "devDependencies": {
+    "@scraper-api-challenge/test-utils": "*"
+  }
+}
